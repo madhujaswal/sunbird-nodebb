@@ -1,5 +1,4 @@
-#FROM node:14.6.0
-FROM ubuntu:16
+FROM node:14.6.0
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
